@@ -32,7 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           TITLE: "${{ steps.current.outputs.date }} blog"
-          ASSIGNEES: "officel"
+          ASSIGNEES: "koyapig"
           LABELS: "zenn.blog"
           BODY: |
             - 個人としての記事を書く
